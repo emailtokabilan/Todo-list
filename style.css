@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    pading: 0;
+    background-color: rgb(180, 178, 178);
+    text-align: center;
+}
+
+h1 {
+    color: brown;
+    margin-top: 90px;
+    margin-left: -300px;
+    font-size: 60pt;
+    font-weight: bolder;
+    text-shadow: 0 .5rem 1rem rgba(66, 61, 61, 0.651);
+}
+
+.container {
+    width: 50%;
+    margin: 80px auto;
+    border: 5px solid #949aa5;
+    border-radius: 20px;
+    background-color: #949aa5;
+    box-shadow: 0 .5rem 1rem rgba(66, 61, 61, 0.651);
+    padding: 10px;
+}
+
+.input-section {
+    display: flex;
+}
+
+.input-section input {
+    flex: 1;
+    padding: 5px;
+    width: 50%;
+    box-shadow: 0 .5rem 1rem rgba(66, 61, 61, 0.651);
+    border-radius: 5px;
+}
+
+.input-section button {
+    background-color: rgb(16, 240, 54);
+    color: white;
+    box-shadow: 0 .5rem 1rem rgba(66, 61, 61, 0.651);
+    border-radius: 5px;
+}
+
+.list-section ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.list-section ul li {
+    box-shadow: 0 .5rem 1rem rgba(66, 61, 61, 0.651);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.list-section ul li .done {
+    text-decoration: line-through;
+}
+
+.list-section ul li .close {
+    background-color: rgb(16, 240, 54);
+    color: white;
+    padding: 10px;
+    box-shadow: 0 .5rem 1rem rgba(66, 61, 61, 0.651);
+    cursor: pointer;
+}
+
+span {
+    color: rgb(255, 232, 127);
+}
